@@ -1,0 +1,50 @@
+/* Overall layout and container */
+body {
+    background-color: #f4f6f8;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .paper-style {
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+    min-height: 65vh;
+  }
+  
+  .subtitle {
+    font-weight: 600;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+
+  .toggle-group .MuiToggleButton-root {
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 8px;
+    color: #444;
+    text-transform: none;
+  }
+  
+  .toggle-group .Mui-selected {
+    background-color: #1976d2 !important;
+    color: white !important;
+  }
+  
+  .toggle-group .MuiToggleButton-root:hover {
+    background-color: rgba(25, 118, 210, 0.1);
+  }
+  
